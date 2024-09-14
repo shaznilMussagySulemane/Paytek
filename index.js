@@ -2,7 +2,7 @@ import express from 'express';
 const app = express()
 
 app.get("/", (req, res) => {
-    res.send("Get /")
+    res.send("Krypthon Tech server is allready online!")
 })
 
 app.listen(6060, () => {
